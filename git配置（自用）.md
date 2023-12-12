@@ -1,6 +1,6 @@
 # git配置（自用）
 
-git下载包已存在。。。
+git下载包已存在。。。[git下载](https://www.git-scm.com/download/)
 设置用户名和邮箱
 git config --global user.name "GitHub 用户名"
 git config --global user.email "GitHub 邮箱"
@@ -24,3 +24,4 @@ git config --global http.proxy http://127.0.0.1:7890（代理端口）
 检查：git config --global -l
 再
 git push -u origin main（不一定是main)
+

@@ -271,33 +271,33 @@ git init //把这个目录变成Git可以管理的仓库
 
 其中
 
-1. echo "#test" >> README.md  中test为你的本地上传根文件夹名，举例中为test
+1. `echo "#test" >> README.md`  中`test`为你的本地上传根文件夹名，举例中为test
 2. `git remote add origin https://github.com/xxx/xxxx.git`：这 个命令是将远程仓库的 URL 添加到本地 Git 代码库中。这 里的 `origin` 是一个别名，用于代表远程仓库的 URL。你可 以为远程仓库指定不同的别名，但 `origin` 是最常用的别名
 3.  `git branch -M main`：这个命令是将本地的默认分支名改 为 `main`。在 Git 2.28 之前，Git 的默认分支名是 `master`， 但为了避免与种族主义相关的词汇，Git 已经决定将默认分 支名改为 `main`
-4. ` git push -u origin main `：这个命令是传到 github 等远程 仓库，并指定远程分支为 main 分支，`git push origin  ` 命令，其中 `` 是你要推 送的分支名
-5. 如果是非首次推送，直接输入 git push 就可以
+4. ` git push -u origin main `：这个命令是传到 `github` 等远程 仓库，并指定远程分支为 `main` 分支，`git push origin  ` 命令，其中 `` 是你要推 送的分支名
+5. 如果是非首次推送，直接输入 `git push` 就可以
 
 例如：
 
-你想把meiri推送到库test中
+你想把`meiri`推送到库`test`中
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132221221.png" alt="image-20231213222126142" style="zoom: 80%;" />
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132221968.png" alt="image-20231213222144780" style="zoom: 50%;" />
 
-在本地文件夹中右键打开终端（Windows PowerShell）
+在本地文件夹中右键打开终端`（Windows PowerShell）`
 
-键入：git init
+键入：`git init`
 
 复制之后点击右键试试？
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132223329.png" alt="image-20231213222326254" style="zoom:67%;" />
 
-键入echo "#test" >> README.md
+键入`echo "#test" >> README.md`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132227915.png" alt="image-20231213222732840" style="zoom:67%;" />
 
-键入git add .
+键入`git add .`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132230173.png" alt="image-20231213223011116" style="zoom:67%;" />
 
@@ -305,15 +305,15 @@ git init //把这个目录变成Git可以管理的仓库
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132231471.png" alt="image-20231213223135390" style="zoom:67%;" />
 
-解决后，键入 git commit -m "first commit"
+解决后，键入` git commit -m "first commit"`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132232136.png" alt="image-20231213223215018" style="zoom:67%;" />
 
-键入git remote add origin git@github.com:VNJKDBHJK/test.git
+键入`git remote add origin git@github.com:VNJKDBHJK/test.git`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132234945.png" alt="image-20231213223412841" style="zoom:67%;" />
 
-键入git push -u origin main
+键入`git push -u origin main`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132236649.png" alt="image-20231213223652546" style="zoom:67%;" />
 
@@ -325,27 +325,27 @@ git init //把这个目录变成Git可以管理的仓库
 
 当你新加入了一个文件比如说123.txt希望继续上传
 
-键入git status
+键入`git status`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132238643.png" alt="image-20231213223852552" style="zoom:67%;" />
 
 看到一个文件未上传
 
-键入git add 123.txt
+键入`git add 123.txt`
 
-文件多可以add .(添加目录下所有文件)
+文件多可以`add .`(添加目录下所有文件)
 
-再次git status
+再次`git status`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132240535.png" alt="image-20231213224045451" style="zoom:67%;" />
 
 提示已加入
 
-键入 git commit -m “更新说明文件”（“”中写什么都行）
+键入 `git commit -m “更新说明文件”`（“”中写什么都行）
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132243259.png" alt="image-20231213224345183" style="zoom:67%;" />
 
-键入git push
+键入`git push`
 
 <img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312132244778.png" alt="image-20231213224434555" style="zoom:67%;" />
 
@@ -379,6 +379,4 @@ git config --global -l
 ```
 git push -u origin main（不一定是main)
 ```
-
-实在不行终端也能进
 

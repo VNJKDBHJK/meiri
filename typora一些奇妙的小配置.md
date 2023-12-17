@@ -207,12 +207,27 @@ $\textcolor{Black}{Black}$
 
 ![image-20231217134142020](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171341098.png)
 
-一开始我在每行后都加了<br/>
+一开始我在每行后都加了`<br/>`
+
+![image-20231217134807865](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171348911.png)
+
+![image-20231217134825986](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171348044.png)
+
+但这也太麻烦了，远不如直接换行的方便
+
+引用[^ 1 ]从这篇文章扒下来一点东西
 
 - **软换行：**需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
 - **硬换行：**你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
 - **换段：**你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
 
+<img src="https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171350565.png" alt="image-20231217135011522"  />
+
+![image-20231217135107035](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171351117.png)
+
+ok了，完全ok
+
 。。。后续会增加
 
 好吧或许会日更。
+

@@ -16,7 +16,7 @@ git init //把这个目录变成Git可以管理的仓库
 
 如果不行，先试试
 git config --global --unset http.proxy <br/>
-git config --global --unset https.proxy
+git config --global --unset https.proxy  
 再不行，试试
 设置>网络和Internet>代理>手动设置代理>编辑>将端口改为代理端口
 输入命令

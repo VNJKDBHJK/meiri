@@ -353,6 +353,8 @@ git init //把这个目录变成Git可以管理的仓库
 
 ps. 传不上去怎么办？
 
+1. 
+
 如果不行，先试试
 
 ```
@@ -380,3 +382,42 @@ git config --global -l
 git push -u origin main（不一定是main)
 ```
 
+2. 
+
+遇到
+
+```
+ is not a valid repository name Visit https://support.github.com/ for help
+```
+
+报错
+
+首先查看
+
+```
+git remote -v
+```
+
+验证遥控器的设置是否正确
+
+报错可能是没有添加.git
+
+```
+git init
+```
+
+如果继续还是不行
+
+可以尝试以下几个方案
+
++ 设置代理，上面那些操作
+
++ 将http的路径换为git@(去自己的库中看看区别改一下)
+
++ 看看路径是否正确，一般路径不会有一些乱七八糟的码
+
+  ![image-20231217130307788](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171303935.png)
+
+  很干净
+
+  

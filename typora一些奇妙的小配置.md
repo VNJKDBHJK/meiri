@@ -1,7 +1,5 @@
 # typora一些奇妙的小配置
 
-
-
 [TOC]
 
 ## 点击在页面内跳转：
@@ -146,6 +144,74 @@ $\textcolor{Black}{Black}$
 ```
 
 [引用](https://blog.csdn.net/liulei952413829/article/details/114670380)
+
+## 打出表情（emoji)
+
+使用:emoji:的形式来打出 emoji
+
+![image-20231217121947239](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171219273.png)
+
+:orange:
+
+:green_apple:
+
+:apple:
+
+:pear:
+
+:banana:
+
+:peach:
+
+:pineapple:
+
+:strawberry:
+
+:grapes:
+
+## 使用脚注
+
+在插入脚注位置后加上
+
+```
+[^ number ]
+```
+
+在说明处加上
+
+```
+[^ number ]:内容
+```
+
+举例：
+
+引用[^ 1 ]
+
+[^ 1 ]:https://sspai.com/post/54912
+
+> shift + F12 检查元素（与浏览器一致）
+
+## YAML front-matter
+
+[贴个网址](https://hexo.io/zh-cn/docs/themes)
+
+## 遇到问题
+
+### 遇到格式乱换行问题
+
+打开github发现
+
+![image-20231217134114260](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171341433.png)
+
+完全乱掉只能看原码
+
+![image-20231217134142020](https://daimaxiaofeiwu.oss-cn-guangzhou.aliyuncs.com/img/202312171341098.png)
+
+一开始我在每行后都加了<br/>
+
+- **软换行：**需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
+- **硬换行：**你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
+- **换段：**你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
 
 。。。后续会增加
 

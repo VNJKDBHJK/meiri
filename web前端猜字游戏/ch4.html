@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猜数字游戏</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ch4.css">
+</head>
+<body>
+	<h2 class="container">猜数字游戏</h2>
+	<div class="container">
+		<p>我选择了一个1到100之间的数字。你能猜到是什么数字吗</p>
+		<input type="number" id="guess" placeholder="请输入数字">
+        <br></br>
+		<button onclick="checkGuess()">猜一猜</button>
+	</div>
+	<p id="result"></p>
+	<p id="previousGuesses"></p>
+
+	<script src="ch4.js"></script>
+</body>
+</html>
